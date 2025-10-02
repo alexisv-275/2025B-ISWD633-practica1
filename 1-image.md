@@ -14,12 +14,19 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
+
+<img width="670" height="129" alt="image" src="https://github.com/user-attachments/assets/ed3d9197-5e32-40d9-b9db-90b8a428f6a7" />
+
 # COMPLETAR
 
 **¿Qué es nginx**
-# COMPLETAR 
+
+Servidor web para contenido estático
 
 Descargar la imagen  **nginx** en la versión **alpine**
+
+<img width="655" height="222" alt="image" src="https://github.com/user-attachments/assets/83214db4-51aa-4cbe-b75c-88a0ac50444f" />
+
 # COMPLETAR
 
 ### Listar imágenes
@@ -29,6 +36,9 @@ docker images
 ```
 
 # COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+
+<img width="494" height="81" alt="image" src="https://github.com/user-attachments/assets/cd4bfa89-7cae-45f1-b8d5-42be1e2de668" />
+
 
 **Identificadores**
 
@@ -43,10 +53,14 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
+
+<img width="771" height="422" alt="image" src="https://github.com/user-attachments/assets/17a0f1b0-9bb4-4699-b088-443234ea6d66" />
+
 # COMPLETAR
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
-# COMPLETAR
+
+SHA-256 (Secure Hash Algorithm 256-bit).
 
 ### Filtrar imágenes
 
@@ -55,14 +69,19 @@ docker images | grep <termino a buscar>
 
 ```
 
+<img width="459" height="56" alt="image" src="https://github.com/user-attachments/assets/e64d6167-66c2-4eab-b88a-39239427aab0" />
+
+
 ### Para eliminar una imagen
 Eliminar permanentemente la imagen de tu sistema Docker.
 
 ```
 docker rmi <nombre imagen>:<tag>
 ```
-
 Eliminar la imagen hello-world 
+
+<img width="657" height="63" alt="image" src="https://github.com/user-attachments/assets/d12a6286-7247-4f2c-b454-631d8c98470d" />
+
 # COMPLETAR
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
@@ -74,3 +93,6 @@ Es una buena práctica detener y eliminar todos los contenedores que dependan de
 ```
 docker rmi -f <nombre imagen>:<tag>
 ```
+
+<img width="663" height="448" alt="image" src="https://github.com/user-attachments/assets/f634939a-0f53-4cf6-867a-ea671843bbe0" />
+
