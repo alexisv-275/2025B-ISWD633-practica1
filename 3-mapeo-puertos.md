@@ -70,12 +70,4 @@ Para obtener la contraseña solicitada es necesario ingresar al contenedor.
 
 ![Imagen](jenkins.PNG)
 
-```
-docker run -d --name jenkins_server -p 8080:8080 -p 50000:50000 jenkins/jenkins:alpine3.18-jdk11
-
-```
-
-<img width="1919" height="1137" alt="image" src="https://github.com/user-attachments/assets/925b80e6-b251-44d9-ba22-3baa7fa5d7e0" />
-
-
 
