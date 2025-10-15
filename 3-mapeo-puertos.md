@@ -59,9 +59,23 @@ No puedes mapear puertos a un contenedor existente directamente después de su c
 # COMPLETAR
 
 # COLOCAR UNA CAPTURA DE PANTALLA  DEL ACCESO http://localhost:8080
+```
+docker run -d --name jenkins_server -p 8080:8080 -p 50000:50000 jenkins/jenkins:alpine3.18-jdk11
+```
+<img width="1919" height="1124" alt="image" src="https://github.com/user-attachments/assets/7012b660-2d1a-49d6-aa48-73d909fc196a" />
+
 
 ### ¿Cómo obtener la contraseña solicitada?
 Para obtener la contraseña solicitada es necesario ingresar al contenedor.
 
 ![Imagen](jenkins.PNG)
+
+```
+docker run -d --name jenkins_server -p 8080:8080 -p 50000:50000 jenkins/jenkins:alpine3.18-jdk11
+
+```
+
+<img width="1919" height="1137" alt="image" src="https://github.com/user-attachments/assets/925b80e6-b251-44d9-ba22-3baa7fa5d7e0" />
+
+
 
